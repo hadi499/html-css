@@ -9,10 +9,9 @@ body {
 }
 .sidebar {
   height: 100vh;
-  background-color: #f0f0f0;
+  background-color: #5e5b5b;
   width: 200px;
   display: flex;
-
   flex-direction: column;
   align-items: first baseline;
   justify-content: space-between;
@@ -30,9 +29,11 @@ body {
 
 .sidebar > .top a {
   text-decoration: none;
+  color: white;
 }
 .sidebar > .bottom a {
   text-decoration: none;
+  color: white;
 }
 
 .sidebar > .bottom {
