@@ -59,4 +59,68 @@ main {
   .sidebar {
     display: none;
   }
+  .text {
+    padding: 0 20px;
+    height: 400px;
+  }
+  .text p {
+    text-align: justify;
+    line-height: 20px;
+    font-size: 16px;
+  }
+  .myform form {
+    width: 400px;
+    overflow: hidden;
+  }
+}
+
+/* form */
+.myform {
+  display: flex;
+  justify-content: center;
+}
+form {
+  background-color: #f0f0f0;
+  padding: 10px 30px;
+  width: 500px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 7px rgb(119, 128, 131);
+}
+form .control {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+form label {
+  font-size: 18px;
+}
+form input {
+  height: 30px;
+  border: none;
+  border-style: none;
+  font-size: 18px;
+  padding: 3px 12px;
+}
+form textarea {
+  border: none;
+  font-size: 18px;
+  padding: 3px 12px;
+}
+form h1 {
+  text-align: center;
+}
+
+form button {
+  padding: 8px 0;
+  font-size: 16px;
+  font-weight: 600;
+  width: 50%;
+  margin: 10px auto;
+  background-color: rgb(248, 200, 141);
+  border-radius: 3px;
+  border: none;
+}
+form button:hover {
+  background-color: rgb(255, 94, 0);
+  color: white;
 }
