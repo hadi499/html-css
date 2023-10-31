@@ -13,3 +13,17 @@ document.getElementById("navbar-toggle").addEventListener("click", function () {
     icon.classList.add("bi-list");
   }
 });
+
+// Dapatkan semua tautan dalam navbar
+var navLinks = document.querySelectorAll(".navbar-menu a");
+// Dapatkan URL halaman saat ini
+var currentURL = window.location.href;
+console.log(currentURL);
+
+// Iterasi melalui tautan dan tambahkan kelas "active" ke tautan yang sesuai dengan URL saat ini
+for (var i = 0; i < navLinks.length; i++) {
+  var linkURL = navLinks[i].href;
+  if (currentURL === linkURL) {
+    navLinks[i].classList.add("active");
+  }
+}

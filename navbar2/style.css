@@ -49,6 +49,10 @@ body {
   color: #fff;
 }
 
+.navbar-menu a.active {
+  color: #84e0e0;
+}
+
 @media screen and (max-width: 768px) {
   .navbar-menu {
     display: none;
